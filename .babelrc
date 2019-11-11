@@ -1,0 +1,9 @@
+//执行顺序：从下往上，从右向左的顺序
+{
+  "plugins": [["@babel/plugin-transform-runtime",{
+      "corejs": 2,
+      "helpers": true,
+      "regenerator": true,
+      "useESModules": false
+  }]]
+}
