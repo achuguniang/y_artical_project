@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config ./build/webpack.dev.config.js",
-    
     "build": "node build/build.js"
   },
   "author": "",
@@ -21,6 +20,7 @@
     "autoprefixer": "^9.7.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-dynamic-import-webpack": "^1.1.0",
+    "babel-plugin-import": "^1.12.2",
     "chalk": "^3.0.0",
     "copy-webpack-plugin": "^5.0.4",
     "css-loader": "^3.2.0",
@@ -52,6 +52,7 @@
     "@babel/runtime-corejs2": "^7.7.1",
     "babel-polyfill": "^6.26.0",
     "lodash": "^4.17.15",
+    "vant": "^2.2.13-beta.0",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
   },
